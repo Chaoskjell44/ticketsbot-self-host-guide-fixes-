@@ -68,7 +68,7 @@ Da dieser bot selbst-gehosted ist, musst du, denn bot selbst konfigurieren. Hier
 5. Füge die redirect URL `${DASHBOARD_URL}/callback` zu den OAuth2 redirect URIs hinzu
    - Ersetze `${DASHBOARD_URL}` mit der URL deiner API (z.B. `http://localhost:8080`, Stelle sicher das diese, mit der URL, die du, in dem [Setup](#setup) abschnitt gesetzt hast, überein stimmt)
 6. Gehe in das Bot tab
-7. Schalte die `Server Members Intent` und `Message Content Intent` toggles an
+7. Schalte die `Server Members Intent` und `Message Content Intent` schalter an
 
 ## Registrierung der slash commands mithilfe von Docker (Empfohlen)
 
