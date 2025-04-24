@@ -63,7 +63,7 @@ As this bot is self-hosted, you will need to configure the bot yourself. Here ar
 1. Go to the [Discord Developer Portal](https://discord.com/developers/applications)
 2. Click on the application you created for the bot
 3. Set the `Interactions Endpoint URL` to `${HTTP_GATEWAY}/handle/${DISCORD_BOT_CLIENT_ID}`
-   - Replace `${HTTP_GATEWAY}` with the URL of your HTTP Gateway (e.g. `http://localhost:8080`, you must have a [publicly accessible URL](./wiki/faq.md#6-i-want-anyone-to-be-able-to-use-the-dashboard-how-do-i-do-that) not localhost)
+   - Replace `${HTTP_GATEWAY}` with the URL of your HTTP Gateway (e.g. `https://gateway.example.com`, you must have a [publicly accessible URL](./wiki/faq.md#6-i-want-anyone-to-be-able-to-use-the-dashboard-how-do-i-do-that) not localhost)
    - Replace `${DISCORD_BOT_CLIENT_ID}` with your bot's application/client ID (e.g. `508391840525975553`)
 4. Go to the OAuth2 tab
 5. Add the redirect URL `${DASHBOARD_URL}/callback` to the OAuth2 redirect URIs
