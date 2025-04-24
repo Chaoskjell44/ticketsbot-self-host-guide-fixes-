@@ -54,7 +54,7 @@ De bovenstaande afbeelding is gemaakt met [Excalidraw](https://excalidraw.com/).
 
 5. Uitvoeren `docker compose up -d` om de afbeeldingen te downloaden en de bot te starten.
 6. Configureer de Discord-bot. ([kijk beneden](#discord-bot-configuratie))
-7. Registreer de slash-commando's ([kijk beneden](#het-registreren-van-de-slash-commando's-met-docker-aanbevolen))
+7. Registreer de slash-commando's ([kijk beneden](#het-registreren-van-de-slash-commandos-met-docker-aanbevolen))
 
 ## Discord Bot Configuratie
 
