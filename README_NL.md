@@ -1,6 +1,6 @@
 # Zelf Hosting kaartjesBot
 
-Dit is een handleiding om de [kaartjesbot] zelf te hosten(https://discord.com/users/508391840525975553). dat was [bekendgemaakt om zonsondergang op de 5 maart 2025](https://discord.com/channels/508392876359680000/508410703439462400/1325516916995129445) op [hun ondersteuningsserver](https://discord.gg/XX2TxVCq6g). Deze handleiding helpt je om de bot op je eigen machine op te zetten met behulp van Docker. **Dit is geen officiële handleiding en ik bied geen ondersteuning.**
+Dit is een handleiding om de [kaartjesbot](https://discord.com/users/508391840525975553) zelf te hosten. dat was [bekendgemaakt om zonsondergang op de 5 maart 2025](https://discord.com/channels/508392876359680000/508410703439462400/1325516916995129445) op [hun ondersteuningsserver](https://discord.gg/XX2TxVCq6g). Deze handleiding helpt je om de bot op je eigen machine op te zetten met behulp van Docker. **Dit is geen officiële handleiding en ik bied geen ondersteuning.**
 
 ## vereisten
 
