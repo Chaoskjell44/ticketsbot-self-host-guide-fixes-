@@ -53,25 +53,25 @@ De bovenstaande afbeelding is gemaakt met [Excalidraw](https://excalidraw.com/).
    ```
 
 5. Uitvoeren `docker compose up -d` om de afbeeldingen te downloaden en de bot te starten.
-6. Configureer de Discord-bot. ([kijk beneden](#discord-bot-configuration))
-7. Registreer de slash-commando's ([kijk beneden](#registering-the-slash-commands-using-docker-recommended))
+6. Configureer de Discord-bot. ([kijk beneden](#discord-bot-configuratie))
+7. Registreer de slash-commando's ([kijk beneden](#het-registreren-van-de-slash-commando's-met-docker-aanbevolen))
 
 ## Discord Bot Configuratie
 
 Aangezien deze bot zelf gehost wordt, zul je de bot zelf moeten configureren. Hier zijn de stappen om de bot te configureren:
 
-1. ga naar te[Discord ontwikkelaar portaal](https://discord.com/developers/applications)
+1. ga naar de [Discord ontwikkelaar portaal](https://discord.com/developers/applications)
 2. Klik op de applicatie die je voor de bot hebt aangemaakt
 3. zet te `Interactions Endpoint URL` naar `${HTTP_GATEWAY}/handle/${DISCORD_BOT_CLIENT_ID}`
    - vervang `${HTTP_GATEWAY}` met de URL van je HTTP-gateway (e.g. `https://gateway.example.com`, Je moet wel een [openbaar URL](./wiki/faq.md#6-i-want-anyone-to-be-able-to-use-the-dashboard-how-do-i-do-that) Geen localhost)
    - vervangen `${DISCORD_BOT_CLIENT_ID}` met de applicatie-/client-ID van je bot (e.g. `508391840525975553`)
 4. ga naar te OAuth2 tab
 5. Voeg de redirect-URL toe `${DASHBOARD_URL}/callback` aan de OAuth2-redirect-URI's
-   - vervang `${DASHBOARD_URL}` met de URL van je API (e.g. `http://localhost:8080`,  zorg ervoor dat dit overeenkomt met wat je hebt ingesteld in de [opstelling](#setup) section)
+   - vervang `${DASHBOARD_URL}` met de URL van je API (e.g. `http://localhost:8080`,  zorg ervoor dat dit overeenkomt met wat je hebt ingesteld in de [opstelling](#opstelling) section)
 6. Ga naar het tabblad 'Bot
 7. Schakel de wisselknoppen `Server Members Intent` en `Message Content Intent` in
 
-## Het registreren van de slash-commando's met Docker (Recommended)
+## Het registreren van de slash-commando's met Docker (Aanbevolen)
 
 1. Bouw het CLI-hulpprogramma voor het registreren van commando's met behulp van `docker build -t ticketsbot/registercommands -f commands.Dockerfile .`
    - Krijg hulp door het uitvoeren van `docker run --rm ticketsbot/registercommands --help`
